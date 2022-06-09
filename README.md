@@ -1,3 +1,36 @@
+# Apify Aggregator Template
+
+Resource material for blogpost on [how to create your own news aggregator using Apify](TODO:<link-here>).
+
+This code is not production ready and serves just as an example / PoC of how you can show Apify Datasets in a nice way.
+
+Forked from [Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate) - you can use similar patterns
+with any other React (or other framework) boilerplates.
+
+Few tweaks of the original boilerplate were needed in order to make it work.
+
+## How to run it
+
+Make sure you have node and npm installed - no other prerequisities are needed.
+
+Put your selected dataset id to `src/utils/AppConfig.ts`.
+
+Then run following commands in your terminal (in the directory where you cloned this repo)
+
+```bash
+# To install all necessary dependencies
+npm install
+
+# To run code in dev mode on your machine
+npm run dev
+```
+
+Now you can visit `http://localhost:3000` and see your news aggregator in action!
+
+Here follows the original README of [Next-js-Boilerplate](https://github.com/ixartz/Next-js-Boilerplate).
+
+---
+
 # Boilerplate and Starter for Next JS 12+, Tailwind CSS 3 and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
 
 <p align="center">
