@@ -3,6 +3,7 @@ import React, { useCallback, useEffect, useState } from 'react';
 
 const client = new ApifyClient();
 
+// Article has a (sub) shape of item in dataset produced by Smart Article Extractor
 interface Article {
   url: string;
   title: string;
@@ -11,7 +12,7 @@ interface Article {
   image: string;
   date: string;
 }
-// TODO: Polish this stuff
+
 const useArticles = (datasetId: string, pageSize: number) => {
   const [page, setPage] = useState(0);
   const [articles, setArticles] = useState<Article[]>([]);
