@@ -25,7 +25,7 @@ const Main = (props: IMainProps) => (
             <li className="mr-6">
               <Link href="/">
                 <a className="border-none text-gray-700 hover:text-gray-900">
-                  Home
+                  News
                 </a>
               </Link>
             </li>
@@ -39,7 +39,7 @@ const Main = (props: IMainProps) => (
             <li className="mr-6">
               <a
                 className="border-none text-gray-700 hover:text-gray-900"
-                href="https://github.com/ixartz/Next-js-Boilerplate"
+                href="https://github.com/apify/apify-aggregator-template"
               >
                 GitHub
               </a>
